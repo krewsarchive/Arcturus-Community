@@ -16,23 +16,25 @@ Arcturus Morningstar is as a fork of Arcturus Emulator by TheGeneral. Arcturus M
 [![image](https://img.shields.io/discord/557240155040251905?style=for-the-badge&logo=discord&color=7289DA&label=KREWS&logoColor=fff)](https://discord.gg/BzfFsTp)
 
 ## Download ##
-[![image](https://img.shields.io/badge/STABLE%20RELEASES-3.5.1-success.svg?style=for-the-badge&logo=appveyor)](https://git.krews.org/morningstar/Arcturus-Community/-/releases)
+[![image](https://img.shields.io/badge/STABLE%20RELEASES-3.5.2-success.svg?style=for-the-badge&logo=appveyor)](https://git.krews.org/morningstar/Arcturus-Community/-/releases)
 
 [![image](https://img.shields.io/badge/DEVELOPER%20BUILDS-4.0-red.svg?style=for-the-badge&logo=appveyor)](https://git.krews.org/morningstar/Arcturus-Community/-/jobs) *
 
-[![image](https://img.shields.io/badge/RECOMMENDED%20PLUGINS-blue.svg?style=for-the-badge&logo=)](https://git.krews.org/official-plugins) 
+[![image](https://img.shields.io/badge/RECOMMENDED%20PLUGINS-blue.svg?style=for-the-badge&logo=)](https://git.krews.org/morningstar/archive) 
 
-###### * Note to use these builds you will need to run any database updates from [here](https://git.krews.org/morningstar/Arcturus-Community/-/tree/dev/sqlupdates) #######
+###### *Note: MS 4.0 is expected to have changes to the Plugin API, backwards compatibility with Plugins is dependant on the plugin developer.  #######
 
 
 ### Branches ###
-There are two main branches in use on the Arcturus Morningstar git. Below the pros an
+There are two main branches in use on the Arcturus Morningstar git. Developers should target the 4.x branch for merge requests.
 
-| master | Tested on a production hotel and is stable for every day use with no known serious exploits. |
-| ------------- | ------------- |
+| master * | The stable 3.x branch of Arcturus Morningstar. |
+|----------|------------------------------------------------|
+###### * Note: This branch is no longer being maintained except for Security Patches #######
 
-| dev | The most up-to-date, but features may not work as intended. |
-| ------------- | ------------- |
+| dev* | The 4.x branch of Arcturus Morningstar. |
+|------|-----------------------------------------|
+###### * Note: This version is currently untested on a production hotel and is not recommended for daily use until a release has been made. #######
 
 
 
@@ -45,7 +47,7 @@ There is no set timeframe on when new versions will be released or when the stab
 You can report problems via the [Issue Tracker](https://git.krews.org/morningstar/Arcturus-Community/issues)*
 ###### * When making an bug report or a feature request use the template we provide so that it can be categorized correctly and we have more information to replicate a bug or implement a feature correctly. ######
 #### Can I contribute code to this project? ####
-Of Course! if you have fixed a bug from the git please feel free to do a [merge request](https://git.krews.org/morningstar/Arcturus-Community/issues)*
+Of Course! Please target the developer branch if you have fixed a bug from the git, and feel free to do a [merge request](https://git.krews.org/morningstar/Arcturus-Community/issues)*
 ###### * Anyone is allowed to fork the project and make pull requests, we make no guarantee that pull requests will be approved into the project. Please Do NOT push code which does not replicate behaviour on habbo.com, instead make the behaviour configurable or as a plugin. ######
 
 
@@ -105,7 +107,6 @@ If we ever are to make paid features or plugins, we will not prevent or discoura
        - Brenoepic
        - Stankman
        - Laynester
-
 
     
 

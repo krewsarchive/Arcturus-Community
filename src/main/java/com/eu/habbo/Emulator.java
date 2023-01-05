@@ -37,7 +37,7 @@ public final class Emulator {
 
     public final static int MAJOR = 3;
     public final static int MINOR = 5;
-    public final static int BUILD = 1;
+    public final static int BUILD = 2;
     public final static String PREVIEW = "";
 
     public static final String version = "Arcturus Morningstar" + " " + MAJOR + "." + MINOR + "." + BUILD + " " + PREVIEW;
@@ -115,11 +115,13 @@ public final class Emulator {
                 System.out.println("Warning, this is a beta build, this means that there may be unintended consequences so make sure you take regular backups while using this build. If you notice any issues you should make an issue on the Krews Git.");
                 promptEnterKey();
             }
-            LOGGER.info("eek. Has it really been a year?");
+            System.out.println("");
+            LOGGER.warn("Arcturus Morningstar 3.x is no longer accepting merge requests. Please target MS4 branches if you wish to contribute.");
+            LOGGER.info("Follow our development at https://git.krews.org/morningstar/Arcturus-Community, ");
+            System.out.println("");
             LOGGER.info("This project is for educational purposes only. This Emulator is an open-source fork of Arcturus created by TheGeneral.");
             LOGGER.info("Version: {}", version);
             LOGGER.info("Build: {}", build);
-            LOGGER.info("Follow our development at https://git.krews.org/morningstar/Arcturus-Community");
 
             long startTime = System.nanoTime();
 
